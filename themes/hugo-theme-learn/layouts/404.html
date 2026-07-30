@@ -2,8 +2,8 @@
 <html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
 
 <head>
-  <meta charset="utf-8"> {{ partial "meta.html" . }} {{ partial "favicon.html" . }} {{ .Scratch.Add "title" "" }}{{ if eq hugo.Data.titles .Title }}{{ .Scratch.Set "title" (index hugo.Data.titles .Title).title }}{{ else }}{{ .Scratch.Set "title" .Title}}{{end}}
-  <title>{{ .Scratch.Get "title" }}</title>
+  <meta charset="utf-8"> {{ partial "meta.html" . }} {{ partial "favicon.html" . }}
+  <title>404 Page Not Found :: {{ .Site.Title }}</title>
 
    {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
     <link href="{{"css/nucleus.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
