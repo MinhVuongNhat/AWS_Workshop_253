@@ -1,6 +1,9 @@
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
+# GitHub Pages URL for the new repo
+baseURL = "https://MinhVuongNhat.github.io/AWS_Workshop_253/"
+
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
