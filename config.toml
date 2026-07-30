@@ -25,6 +25,7 @@ home = [ "HTML", "RSS", "JSON"]
 title = "AWS ETL Stock Price Prediction"
 weight = 1
 label = "English"
+languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub Repo"
@@ -36,6 +37,7 @@ weight = 10
 title = "AWS ETL Dự đoán Giá Cổ Phiếu"
 weight = 2
 label = "Tiếng Việt"
+languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub Repo"
