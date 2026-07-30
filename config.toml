@@ -43,8 +43,12 @@ identifier = "GitHub"
 url = "https://github.com/MinhVuongNhat/AWS_ETL_Lambda_Stock_Price_Predict_Classification"
 weight = 10
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [markup.goldmark.extensions.passthrough]
   enable = true
   [markup.goldmark.extensions.passthrough.delimiters]
     block = [['\[', '\]'], ['$$', '$$']]
     inline = [['\(', '\)']]          # khuyến nghị dùng \( ... \) thay vì $ ... $
+
