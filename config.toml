@@ -3,6 +3,7 @@ theme = "hugo-theme-learn"
 
 # GitHub Pages URL for the new repo
 baseURL = "https://MinhVuongNhat.github.io/AWS_Workshop_253/"
+canonifyURLs = true
 
 # For search functionality
 [outputs]
