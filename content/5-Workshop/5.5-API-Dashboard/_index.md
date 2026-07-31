@@ -38,7 +38,12 @@ Lambda `nasdaq-stock-predictor` is exposed via **AWS API Gateway** as a REST end
 
 ---
 
-#### 5.2 — Streamlit Dashboard (Local)
+#### 5.2 — Dashboard (S3 Static Website & Streamlit)
+
+**Live Web Dashboard (Amazon S3 Static Website Hosting):**  
+🌐 **[http://nasdaq-ai-dashboard-2026-430970051812-ap-southeast-1-an.s3-website-ap-southeast-1.amazonaws.com/](http://nasdaq-ai-dashboard-2026-430970051812-ap-southeast-1-an.s3-website-ap-southeast-1.amazonaws.com/)**
+
+**Run Streamlit Dashboard (Local):**
 
 ```bash
 streamlit run dashboard/streamlit_app.py

@@ -28,6 +28,12 @@ label = "English"
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-globe'></i> Live Demo Web"
+identifier = "Demo"
+url = "http://nasdaq-ai-dashboard-2026-430970051812-ap-southeast-1-an.s3-website-ap-southeast-1.amazonaws.com/"
+weight = 5
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub Repo"
 identifier = "GitHub"
 url = "https://github.com/MinhVuongNhat/AWS_ETL_Lambda_Stock_Price_Predict_Classification"
@@ -38,6 +44,12 @@ title = "AWS ETL Dự đoán Giá Cổ Phiếu"
 weight = 2
 label = "Tiếng Việt"
 languageName = "Tiếng Việt"
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fas fa-globe'></i> Trang Web Demo"
+identifier = "Demo"
+url = "http://nasdaq-ai-dashboard-2026-430970051812-ap-southeast-1-an.s3-website-ap-southeast-1.amazonaws.com/"
+weight = 5
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub Repo"

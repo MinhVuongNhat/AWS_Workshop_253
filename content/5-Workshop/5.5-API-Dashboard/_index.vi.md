@@ -53,9 +53,12 @@ curl -X POST \
 
 ---
 
-#### 5.2 — Streamlit Dashboard (Local)
+#### 5.2 — Web Dashboard (S3 Hosting & Streamlit Local)
 
-Chạy Dashboard tương tác Streamlit tại local:
+**Trang Web Dashboard Trực tuyến (Amazon S3 Static Website Hosting):**  
+🌐 **[http://nasdaq-ai-dashboard-2026-430970051812-ap-southeast-1-an.s3-website-ap-southeast-1.amazonaws.com/](http://nasdaq-ai-dashboard-2026-430970051812-ap-southeast-1-an.s3-website-ap-southeast-1.amazonaws.com/)**
+
+**Chạy Dashboard tương tác Streamlit tại local:**
 
 ```bash
 streamlit run dashboard/streamlit_app.py
