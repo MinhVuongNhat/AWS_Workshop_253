@@ -5,7 +5,7 @@ weight : 1
 chapter : false
 ---
 
-# AWS ETL Lambda Stock Price Prediction — Báo cáo Lab
+# AWS ETL Lambda Stock Price Prediction — Báo cáo
 
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Vương Nhật Minh
